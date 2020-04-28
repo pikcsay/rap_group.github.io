@@ -137,3 +137,27 @@ a:hover {
   justify-content: space-around;
   width: 100%;
 }
+
+
+/* Adaptive */
+
+@media (max-width: 1009px) {
+  .clips {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .clips img{
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .clips img:first-of-type {
+  margin-right: 0;
+
+}
+
+.clips img:last-of-type {
+  margin-left: 0;
+}
+}
