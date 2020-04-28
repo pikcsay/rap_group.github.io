@@ -85,7 +85,7 @@ a {
 }
 
 .main {
-  height: 759px;
+  min-height: 100vh;
   background-image: url(../images/main_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +105,7 @@ a {
 /* Clips */
 
 .clips {
-  padding: 85px 0;
+  padding: 23vh 0;
   max-width: 970px;
   width: 100%;
   margin: 0 auto;
