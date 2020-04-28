@@ -106,7 +106,8 @@ a {
 
 .clips {
   padding: 85px 0;
-  width: 970px;
+  max-width: 970px;
+  width: 100%;
   margin: 0 auto;
 }
 
