@@ -68,10 +68,15 @@ a {
   font-size: 50px;
   color: #fff;
   transition: 0.2s;
+  border: 0;
 }
 
 a:hover {
   color: #d11d1d;
+}
+
+.clips_link:hover {
+  opacity: 0.85;
 }
 
 
