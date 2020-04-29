@@ -79,6 +79,10 @@ a:hover {
   opacity: 0.85;
 }
 
+.clips_link:active {
+  opacity: .7;
+}
+
 
 /*
   ========================================
