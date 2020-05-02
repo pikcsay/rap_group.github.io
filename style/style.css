@@ -58,6 +58,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body, html {
+  max-height: 100vh;
+}
 
 .container {
   margin: 0 30px;
@@ -83,13 +86,6 @@ a:hover {
   opacity: .7;
 }
 
-
-/*
-  ========================================
-  Сетка
-  ========================================
-*/
-
 *,
 *:before,
 *:after {
@@ -98,15 +94,21 @@ a:hover {
   box-sizing: border-box;
 }
 
+
+
+/*
+  ========================================
+  Main
+  ========================================
+*/
+
+
 .main {
   min-height: 100vh;
-  background-image: url(../images/main_bg.png);
+  background-image: url('../images/main_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
 
 /* Nav_bar top */
 
@@ -136,7 +138,7 @@ a:hover {
 
 /* Nav_bar bottom */
 
-.nav_bar2 {
+.footer {
   display: flex;
   justify-content: space-between;
 }
@@ -146,6 +148,76 @@ a:hover {
   justify-content: space-around;
   width: 100%;
 }
+
+
+/*
+  ========================================
+  Community
+  ========================================
+*/
+
+.community {
+  background-image: url('../images/community_bg.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  height: 70vh;
+}
+
+.contacts ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+
+.contacts span {
+  display: block;
+  font-family: 'Queen', 'Arial', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.contacts a {
+  display: block;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.youtube_link {
+  background-image: url('../images/youtube_link.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vk_link {
+  background-image: url('../images/vk_link.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.inst_link {
+  background-image: url('../images/inst_link.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.git_link {
+  background-image: url('../images/git_link.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contacts_of_gang {
+  margin-bottom: 40px;
+}
+
 
 
 /* Adaptive */
@@ -165,9 +237,9 @@ a:hover {
   .clips img:first-of-type {
   margin-right: 0;
 
-}
+  }
 
-.clips img:last-of-type {
-  margin-left: 0;
-}
+  .clips img:last-of-type {
+    margin-left: 0;
+  }
 }
