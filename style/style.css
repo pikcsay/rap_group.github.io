@@ -64,6 +64,7 @@ body, html {
 
 .container {
   margin: 0 30px;
+  height: 100%;
 }
 a {
   text-decoration: none;
@@ -76,6 +77,11 @@ a {
 
 a:hover {
   color: #d11d1d;
+}
+
+.avt:hover {
+  color: #990099;
+  cursor: pointer;
 }
 
 
@@ -105,10 +111,13 @@ span {
 
 
 .main {
-  min-height: 100vh;
   background-image: url('../images/main_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main__inner {
+  height: 100%;
 }
 
 /* Nav_bar top */
@@ -248,7 +257,7 @@ span {
 .clip video {
   width: 60vw;
   border: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 
